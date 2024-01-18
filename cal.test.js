@@ -1,4 +1,4 @@
-// calculator.test.js
+
 const {
     add,
     subtract,
@@ -27,7 +27,7 @@ test('handles division by zero', () => {
     expect(divide(10, 0)).toBe('Cannot divide by zero');
 });
 
-// Jest test for calculateAndPrintResults function
+// Jest test for calculateAndPrintResults 
 test('calculates and prints results for valid input', () => {
     const consoleLogSpy = jest.spyOn(console, 'log');
     
