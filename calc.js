@@ -1,4 +1,4 @@
-// calculator.js
+
 
 // Function to add two numbers
 function add(a, b) {
@@ -24,7 +24,7 @@ function divide(a, b) {
     }
 }
 
-// Function to perform calculations based on user input
+
 function calculateAndPrintResults(num1, num2) {
     if (!isNaN(num1) && !isNaN(num2)) {
         // Perform calculations
